@@ -1,0 +1,5 @@
+usr/include/*
+usr/lib/*/libtest.so
+usr/lib/*/pkgconfig/libtest.pc
+usr/share/man/man3/*
+usr/share/man/man7/*

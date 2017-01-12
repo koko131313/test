@@ -1,0 +1,25 @@
+<project
+    name = "test"
+    description = "test of the test"
+    script = "zproject.gsl"
+    email = "test@test.com"
+    url = "https://test.com/"
+    license = "GPL-2.0+"
+    >
+
+    <target name = "debian" />
+    <target name = "redhat" />
+    <target name = "travis" />
+
+    <version major = "0" minor = "1" patch = "0" />
+
+    <use project = "czmq" />
+    <use project = "malamute" />
+
+
+    <class name = "test1">test1</class>
+    <class name = "test2" private = "1"> test2 </class>
+
+    <main  name = "test-main" service = "1">test main</main>
+
+</project>

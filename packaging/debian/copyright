@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: test
+
+Files: *
+Copyright: 2015- test Developers <test@test.com>
+License: test_license
+ Copyright (c) the Authors

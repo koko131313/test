@@ -31,3 +31,26 @@
 # Debug files
 *.dSYM/
 *.su
+*.*~
+
+# autoconf  files
+Makefile
+Makefile.in
+aclocal.m4
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+
+# Valgrind files
+callgrind*
+vgcore*
+
+# some backups
+.travis.yml2
+ci_build.sh2
+ci_deploy.sh2
+
+autom4te.cache/
+config/
+
