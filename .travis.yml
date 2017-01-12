@@ -16,15 +16,11 @@ services:
 
 env:
   global:
-    - CI_TIME=false
-    - CI_TRACE=false
-    - CI_QUIET=true
   matrix:
     - BUILD_TYPE=default
-    - BUILD_TYPE=default-Werror
-    - BUILD_TYPE=cmake
-#   - BUILD_TYPE=android
-#   - BUILD_TYPE=check-py
+#    - BUILD_TYPE=default-Werror
+#    - BUILD_TYPE=cmake
+
 
 matrix:
   include:
