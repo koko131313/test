@@ -98,15 +98,15 @@ find %{buildroot} -name '*.la' | xargs rm -f
 %{_bindir}/test-main
 %{_mandir}/man1/test-main*
 %config(noreplace) %{_sysconfdir}/test/test-main.cfg
-/usr/lib/systemd/system/test-main{,@*}.{service,*}
+/usr/lib/systemd/system/test-main.service
 %dir %{_sysconfdir}/test
 %if 0%{?suse_version} > 1315
 %post
-%systemd_post test-main{,@*}.{service,*}
+%systemd_post test-main.service
 %preun
-%systemd_preun test-main{,@*}.{service,*}
+%systemd_preun test-main.service
 %postun
-%systemd_postun_with_restart test-main{,@*}.{service,*}
+%systemd_postun_with_restart test-main.service
 %endif
 
 %changelog

@@ -12,7 +12,7 @@ Name: libtest
 Description: test of the test
 Version: @VERSION@
 
-Requires:libzmq libczmq libmlm
+Requires:@pkgconfig_name_libzmq@ @pkgconfig_name_libczmq@ @pkgconfig_name_libmlm@
 
 Libs: -L${libdir} -ltest
 Cflags: -I${includedir} @pkg_config_defines@

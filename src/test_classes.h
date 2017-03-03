@@ -18,6 +18,14 @@
 //  External API
 #include "../include/test.h"
 
+//  Extra headers
+
+//  Opaque class structures to allow forward references
+#ifndef TEST2_T_DEFINED
+typedef struct _test2_t test2_t;
+#define TEST2_T_DEFINED
+#endif
+
 //  Internal API
 #include "test2.h"
 

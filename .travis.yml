@@ -18,7 +18,7 @@ env:
   global:
   matrix:
     - BUILD_TYPE=default
-#    - BUILD_TYPE=default-Werror
+    - BUILD_TYPE=default-Werror
 #    - BUILD_TYPE=cmake
 
 

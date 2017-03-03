@@ -1,5 +1,5 @@
 usr/bin/test-main
 usr/share/man/man1/test-main.1
 etc/test/test-main.cfg
-lib/systemd/system/test-main{,@*}.{service,*}
+lib/systemd/system/test-main.service
 
