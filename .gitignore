@@ -54,3 +54,20 @@ ci_deploy.sh2
 autom4te.cache/
 config/
 
+configure
+
+config.log
+config.status
+libtool
+src/.deps/
+src/.dirstamp
+src/.libs/
+src/Makemodule-local.am
+src/platform.h
+src/selftest-ro/
+src/stamp-h1
+src/test-main
+src/test_selftest
+test-suite.log
+
+
