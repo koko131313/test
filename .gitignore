@@ -62,7 +62,6 @@ libtool
 src/.deps/
 src/.dirstamp
 src/.libs/
-src/Makemodule-local.am
 src/platform.h
 src/selftest-ro/
 src/stamp-h1
