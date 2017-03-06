@@ -11,9 +11,6 @@ os:
 
 sudo: false
 
-services:
-- docker
-
 env:
   global:
   matrix:
