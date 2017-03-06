@@ -161,9 +161,6 @@ add_library(test ${test_sources})
 set_target_properties(test
     PROPERTIES DEFINE_SYMBOL "TEST_EXPORTS"
 )
-set_target_properties(test
-    PROPERTIES LIBRARY_OUTPUT_DIRECTORY "${SOURCE_DIR}/src"
-)
 set_target_properties (test
     PROPERTIES SOVERSION "0.0.0"
 )
@@ -215,10 +212,6 @@ target_link_libraries(
     ${MALAMUTE_LIBRARIES}
     ${OPTIONAL_LIBRARIES}
 )
-set_target_properties(
-    test-main
-    PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${SOURCE_DIR}/src"
-)
 install(TARGETS test-main
     RUNTIME DESTINATION bin
 )
@@ -233,10 +226,6 @@ target_link_libraries(
     ${CZMQ_LIBRARIES}
     ${MALAMUTE_LIBRARIES}
     ${OPTIONAL_LIBRARIES}
-)
-set_target_properties(
-    test_selftest
-    PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${SOURCE_DIR}/src"
 )
 
 ########################################################################
