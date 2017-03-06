@@ -12,7 +12,6 @@
 extern "C" {
 #endif
 
-typedef struct _test2_t test2_t;
 
 //  @interface
 //  Create a new test2
